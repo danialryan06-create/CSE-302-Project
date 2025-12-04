@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     ASListR list;
-    ifstream file("mlb_2015_modified.csv");
+    ifstream file("mlb2015new.csv");
 
     if (!file.is_open()) {
         cout << "Error opening CSV file.\n";
